@@ -1,7 +1,7 @@
 import java.util.*;
 /**
  * Write a description of class Demo here.
- *
+ * 
  * @author (your name)
  * @version (a version number or a date)
  */
@@ -11,6 +11,9 @@ public class Demo
         ArrayList<String> tiere = new ArrayList<>();
         tiere.add("Elephant");
          tiere.add("Topi");
+         AnimalMonitor am = new AnimalMonitor();
+         am.addSightings("sightings.csv");
+         am.printEndangered(tiere, 100);
        // call method
     }
     public static ArrayList<String> createList(){
