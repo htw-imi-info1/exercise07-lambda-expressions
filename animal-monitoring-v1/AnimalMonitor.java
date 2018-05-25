@@ -19,8 +19,11 @@ public class AnimalMonitor
     public AnimalMonitor()
     {
         this.sightings = new ArrayList<>();
+        addSightings("sightings.csv");
     }
     
+    public void createTestData(){
+    sightings.add(new Sighting()}
     /**
      * Add the sightings recorded in the given filename to the current list.
      * @param filename A CSV file of Sighting records.
