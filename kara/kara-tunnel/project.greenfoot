@@ -1,6 +1,8 @@
 #Greenfoot project file
 class.Kara.image=kara_gray.png
 class.KaraWorld_A.image=field_white.png
+class.KaraWorld_B.image=field.png
+class.KaraWorld_C.image=field_white.png
 class.Leaf.image=leaf.png
 class.Mushroom.image=mushroom.png
 class.MyKara.image=kara_red.png
@@ -161,5 +163,5 @@ target8.y=0
 version=3.0.0
 width=1087
 world.lastInstantiated=KaraWorld_A
-xPosition=132
-yPosition=393
+xPosition=302
+yPosition=231
